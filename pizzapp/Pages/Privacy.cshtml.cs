@@ -19,9 +19,9 @@ namespace pizzapp.Pages
 
         public void OnGet()
         {
-            var pizza = new Pizza() { Name = "Reine", Price = 9 };
-            _dataContext.Pizzas.Add(pizza);
-            _dataContext.SaveChanges();
+            // var pizza = new Pizza() { Name = "Reine", Price = 9 };
+            // _dataContext.Pizzas.Add(pizza);
+            // _dataContext.SaveChanges();
         }
     }
 }
